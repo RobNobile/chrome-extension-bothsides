@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Both Sides",
+  "version": "1.0",
+  "description": "Read about Both Sides in your Free (NY)Time(s)",
+  "content_scripts": [
+    {
+      "matches": ["https://www.nytimes.com/*", "https://www.foxnews.com/*"],
+      "js": ["./jquery.min.js", "./app.js"],
+      "css": ["./styles.css"]
+    }
+  ]
+}

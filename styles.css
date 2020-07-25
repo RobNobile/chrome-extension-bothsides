@@ -1,0 +1,133 @@
+/* .bothSidesDiv {
+  background: white;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 5;
+  width: 450px;
+  height: 1500px;
+  padding: 75px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -7px 7px 17px -10px rgba(204,204,204,1);
+}
+
+.bothSidesDiv h1 {
+  font-size: 3.5rem;
+}
+
+.bothSidesDiv h1:first-of-type {
+  color: red;
+}
+
+.bothSidesDiv h1:last-of-type {
+  color: blue;
+}
+
+.bothSidesDiv h2 {
+  color: black;
+  font-size: 1.3rem;
+  padding-top: 40px;
+}
+
+.bothSidesDiv p {
+  color: grey;
+  font-size: 1rem;
+}
+
+.bothSidesDiv img {
+  height: 150px;
+  margin-bottom: 25px;
+}
+
+.relatedArticle img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.tagline {
+  color: black !important;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
+}
+
+.taglineSub {
+  font-style: italic;
+  text-align: center;
+  margin-top: 25px;
+} */
+/* 
+above is original */
+
+.bothSidesDiv {
+  background: #f24300;
+  border-radius: 5px;
+  position: fixed;
+  z-index: 5;
+  width: 450px;
+  /* height: 1500px; */
+  padding: 0px 50px 75px 50px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -7px 7px 17px -10px rgba(204,204,204,1);
+}
+
+.bothSidesDiv h1 {
+  font-size: 4.25rem;
+  color: white;
+  font-weight: 800;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-bottom: 2rem;
+}
+
+
+.bothSidesDiv h2 {
+  color: white;
+  font-size: 1.3rem;
+  padding-top: 40px;
+  margin-bottom: 10px;
+}
+
+.bothSidesDiv h2:hover {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.bothSidesDiv p {
+  color: lightcyan;
+  font-size: 1rem;
+}
+
+.bothSidesDiv img {
+  width: 450px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.relatedArticle img {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  /* box-shadow: -3px 3px 2px -2px rgba(255,255,255,1); */
+}
+
+.tagline {
+  color: white !important;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 0rem;
+}
+
+.taglineSub {
+  font-style: italic;
+  text-align: center;
+  margin-top: 25px;
+}
